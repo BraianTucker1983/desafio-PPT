@@ -5,8 +5,8 @@
   "packageManager": "yarn@4.12.0",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir build",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build src/index.html --dist-dir build --public-url ./desafio-PPT",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "parcel": "^2.16.3",
